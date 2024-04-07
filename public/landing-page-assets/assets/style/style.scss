@@ -1,0 +1,1067 @@
+@import "variables";
+
+// global utilities start
+
+html,
+body * {
+  scrollbar-color: $primarycolor $lightGray !important;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
+  background-color: $lightGray;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+  background-color: $lightGray;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 16px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.25);
+  background-color: $primarycolor;
+}
+
+* {
+  font-family: $Lato;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+button,
+a {
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+.mb-23 {
+  margin-bottom: 2.3rem;
+}
+
+.pb-10 {
+  padding-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0;
+}
+// global utilities end
+
+html {
+  font-size: 10px;
+
+  // header css starts
+
+  body {
+    @include font-16;
+    font-family: $Lato;
+    color: $Dark;
+    padding-top: 112px;
+    &.menu-active {
+      overflow: hidden;
+      header {
+        .menu_icon {
+          span {
+            &:first-child {
+              transform: rotate(45deg);
+              margin: 0;
+            }
+            &:last-child {
+              transform: rotate(-45deg) translateY(-17px);
+            }
+          }
+        }
+      }
+      .toggle_menu {
+        transform: translateY(0);
+        .toggleMenu_wrapper {
+          ul {
+            transform: translateY(0);
+            li {
+              transform: translateY(0);
+              opacity: 1;
+            }
+          }
+        }
+        .additional_overlay {
+          top: 100%;
+          bottom: auto;
+        }
+      }
+    }
+  }
+  // header css end
+  .sidebar-open {
+    overflow: hidden;
+    .overlay {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  .header {
+    padding: 10px 0;
+    background-color: $white;
+    box-shadow: none;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: $white;
+    @include boxCardShadow;
+    &.sticky {
+      background: $white;
+      @include boxCardShadow;
+      .container {
+        .row-wrap {
+          .nav-list {
+            li {
+              &.active {
+                a {
+                  color: $primarycolor;
+                }
+              }
+              a {
+                color: $primarycolor;
+                &::after {
+                  background-color: $primarycolor;
+                  top: 50px;
+                  @include ipadview {
+                    top: 28px;
+                  }
+                }
+                &:hover {
+                  color: $secondarycolor;
+                }
+              }
+            }
+          }
+          .hamburger {
+            .line {
+              background-color: #000;
+            }
+          }
+        }
+      }
+    }
+    .container {
+      padding: 0 15px;
+      .row-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        .logo-wrap {
+          .logo {
+            img {
+              width: 100%;
+              max-width: 80px;
+              object-fit: cover;
+            }
+          }
+        }
+        @include ipadview {
+          .nav-wrap {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            transform: translateX(100%);
+            background-color: #ffffff;
+            transition: all 0.5s linear;
+            max-width: 300px;
+            width: 100%;
+            height: 100%;
+            box-shadow: 2px -5px 5px 3px #ccc;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 0;
+            .nav-list {
+              flex-direction: column;
+              align-items: unset;
+              opacity: 0;
+              visibility: hidden;
+              transition-delay: 0.5s;
+              transition-duration: 1s;
+              transition-property: all;
+              padding: 10px;
+              li {
+                padding: 7px 10px;
+                a {
+                  text-align: left;
+                  display: inline-block;
+                  padding: 2px 0;
+                  &::after {
+                    @include ipadview {
+                      top: 28px;
+                    }
+                  }
+                }
+              }
+            }
+            &.is-open {
+              transform: translateX(0);
+              opacity: 1;
+              visibility: visible;
+              right: 0;
+              z-index: 9;
+              .nav-list {
+                opacity: 1;
+                visibility: visible;
+              }
+            }
+          }
+        }
+        .nav-list {
+          display: flex;
+          align-items: center;
+          li {
+            padding: 0 22px;
+            @include miniscreen {
+              padding: 0 15px;
+            }
+            @include mobileview {
+              padding: 0 10px;
+            }
+            a {
+              color: $primarycolor;
+              @include font-16;
+              text-decoration: none;
+              padding: 5px 0;
+              position: relative;
+              display: block;
+              svg{
+                height: 14px;
+                width: auto;
+              }
+              &::after {
+                content: "";
+                background-color: $secondarycolor;
+                width: 0;
+                height: 2px;
+                position: absolute;
+                left: 0;
+                top: 35px;
+                transition: all 0.3s linear;
+              }
+              &:hover {
+                color: $secondarycolor;
+                &::after {
+                  width: 100%;
+                }
+              }
+            }
+            &.active {
+              a {
+                color: $secondarycolor;
+                &::after {
+                  width: 100%;
+                }
+              }
+            }
+            &.submenuMain {
+              position: relative;
+              .submenu {
+                background: transparent;
+                border-color: transparent;
+                color: $primarycolor;
+                @include font-16;
+                text-decoration: none;
+                padding: 5px 0;
+                position: relative;
+                display: block;
+                cursor: pointer;
+              }
+              .sub-menu-alt {
+                display: none;
+                position: absolute;
+                z-index: 1;
+                background: $white;
+                @include boxCardShadow;
+                padding: 1rem 1.5rem;
+                width: 100%;
+                top: 33px;
+              }
+              .mobiescanBox{
+                display: none;
+                position: absolute;
+                z-index: 1;
+                background: $white;
+                @include boxCardShadow;
+                padding: 1.5rem 1.5rem 2rem;
+                width: 265px;
+                top: 33px;
+                @include ipad-view{
+                  left: -15px;
+                }
+                .innerbox{
+                  @include flexcolumn;
+                  gap: 5px;
+                  width: 100%;
+                  .scannerimg{
+                    @include flexAllCenter;
+                    img{
+                      width: 100%;
+                      max-width: 200px;
+                      object-fit: cover;
+                    }
+                  }
+                  .webContent{
+                    padding-top: 1rem;
+                    p{
+                      @include font-14;
+                      color: $Dark;
+                      @include font-400;
+                      padding-bottom: 1rem;
+                      margin-bottom: 0;
+                      &.boxTitle{
+                        @include font-16;
+                        @include font-600;
+                      }
+                    }
+                    .formdata{
+                      width: 100%;
+                      padding-top: 1rem;
+                      @include flexcolumn;
+                      gap: 10px;
+                      .formInput{
+                        border: 1px solid $lightGray;
+                        @include font-14;
+                        color: $Dark;
+                        width: 100%;
+                        border-radius: 1.5rem;
+                        padding: 8px 15px;
+                        height: 35px;
+                      }
+                      .btnprimay{
+                        @include primarycolorBtnSolid;
+                        padding: 1.8rem 2rem;
+                        @include font-16;
+                        width: 100%;
+                      }
+                    }
+                  }
+                }
+              }
+              &:hover {
+                .submenu {
+                  color: $secondarycolor;
+                }
+                .sub-menu-alt {
+                  display: flex;
+                  flex-direction: column;
+                  opacity: 1;
+                  gap: 10px;
+                }
+                .mobiescanBox{
+                  display: block;
+                  opacity: 1;
+                }
+              }
+            }
+            &:last-child {
+              padding-right: 0;
+            }
+          }
+        }
+        .hamburger {
+          display: none;
+          z-index: 99;
+          @include ipadview {
+            display: block;
+          }
+          .line {
+            width: 25px;
+            height: 1.5px;
+            background-color: $black;
+            display: block;
+            margin: 5px 0;
+            -webkit-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            &:nth-child(2) {
+              width: 15px;
+            }
+          }
+          &:hover {
+            cursor: pointer;
+          }
+          &.is-active {
+            .line {
+              background-color: #311432;
+              &:nth-child(2) {
+                opacity: 0;
+              }
+              &:nth-child(1) {
+                -webkit-transform: translateY(6.5px) rotate(45deg);
+                -ms-transform: translateY(6.5px) rotate(45deg);
+                -o-transform: translateY(6.5px) rotate(45deg);
+                transform: translateY(6.5px) rotate(45deg);
+              }
+              &:nth-child(3) {
+                -webkit-transform: translateY(-6.5px) rotate(-45deg);
+                -ms-transform: translateY(-6.5px) rotate(-45deg);
+                -o-transform: translateY(-6.5px) rotate(-45deg);
+                transform: translateY(-6.5px) rotate(-45deg);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  //  main dashboard start
+  .mainContentWrapper {
+    .heroMainWrapper {
+      background-color: $white;
+      padding: 30px 0 30px;
+      .leftBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+        @include tab-view {
+          margin-bottom: 40px;
+        }
+        @include tab-max {
+          margin-bottom: 0;
+          text-align: left;
+        }
+
+        h1 {
+          @include font-800;
+          font-family: $Lato;
+          margin-bottom: 24px;
+
+          @include mobile-xxsm-view {
+            @include font-30;
+            line-height: 28px;
+          }
+
+          @include mobile-sm-view {
+            @include font-40;
+            line-height: 38px;
+          }
+
+          @include tab-view {
+            @include font-54;
+            line-height: 58px;
+          }
+        }
+
+        p {
+          @include font-400;
+          color: $DarkGray;
+          @include font-16;
+          line-height: 24px;
+          @include ipad-view {
+            @include font-18;
+            line-height: 26px;
+          }
+        }
+        .buttonsection {
+          @include flexAllCenter;
+          @include ipad-view{
+            @include flexAlignCenter;
+            justify-content: flex-start;
+          }
+          padding-top: 20px;
+          .btnprimay {
+            @include primarycolorBtnSolid;
+            padding: 1.8rem 2rem;
+            @include font-20;
+            width: 100%;
+            max-width: 400px;
+          }
+        }
+      }
+
+      .rightBox {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        img {
+          object-fit: contain;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .twocolumnSectionMain{
+      background: $lightblue;
+      padding: 5rem 0;
+      .repatedSection{
+        &:not(:last-child){
+          padding-bottom: 4rem;
+        }
+        .imagebox{
+          position: relative;
+          padding: 0 2rem;
+          margin: 0;
+          img {
+            object-fit: contain;
+            width: 100%;
+            height: auto;
+          }
+        }
+        .contentbox{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 100%;
+          h2 {
+            @include font-24;
+            @include font-700;
+            color: $Dark;
+            text-align: left;
+            font-family: $Lato;
+            max-width: 600px;
+            text-transform: capitalize;
+            margin-bottom: 0;
+            padding-bottom: 1.5rem;
+            @include tab-view {
+              @include font-36;
+            }
+          }
+          p {
+            text-align: left;
+            @include font-16;
+            line-height: 2.2rem;
+            color: $Dark;
+            padding-bottom: 1.5rem;
+          }
+          .redmore{
+            a {
+              color: $primarycolor;
+              @include font-16;
+              @include font-600;
+              line-height: 2.1rem;
+              text-decoration: none;
+              &:hover {
+                color: $secondarycolor;
+              }
+            }
+          }
+        }
+      }
+    }
+    .featuresMain {
+      background: $whitef5;
+      .featuresbox {
+        padding: 5rem 0;
+        .FeaturesTabmain {
+          @include flexstart;
+          gap: 20px;
+          .nav-tabs {
+            display: none;
+            @include ipad-view {
+              width: 400px;
+              border: 0;
+              display: block;
+              // height: 400px;
+              // overflow-y: auto;
+            }
+            .nav-item {
+              width: 100%;
+              display: block;
+              &:not(:last-child) {
+                padding-bottom: 1rem;
+              }
+              .nav-link {
+                padding: 20px;
+                border: none;
+                background: $white;
+                @include font-20;
+                @include font-600;
+                border-radius: 8px;
+                width: 100%;
+                text-align: left;
+                color: $Dark;
+                text-transform: capitalize;
+                &:hover {
+                  background: $primarycolor;
+                  color: $white;
+                }
+                &.active {
+                  background: $primarycolor;
+                  color: $white;
+                }
+              }
+            }
+          }
+          .tab-content {
+            width: 100%;
+            @include ipad-view {
+              width: calc(100% - 400px);
+              background: $white;
+              padding: 2rem;
+              @include boxCardShadow;
+              border-radius: 6px;
+              height: 400px;
+              overflow-y: auto;
+            }
+            .tab-pane {
+              @include ipadview {
+                display: block;
+                opacity: 1;
+                margin-bottom: 1rem;
+                .accordion-header {
+                  .accordion-button {
+                    width: 100%;
+                    padding: 20px;
+                    border: none;
+                    @include font-20;
+                    @include font-600;
+                    border-radius: 8px;
+                    width: 100%;
+                    text-align: left;
+                    background: $primarycolor;
+                    color: $white;
+                    text-transform: capitalize;
+                    &.collapsed {
+                      background: $white;
+                      color: $Dark;
+                    }
+                  }
+                }
+              }
+              .accordion-body {
+                p {
+                  @include font-16;
+                  padding-bottom: 2rem;
+                  color: $Dark;
+                  text-transform: capitalize;
+                }
+                @include ipadview {
+                  background: $white;
+                  padding: 1.5rem;
+                  border-radius: 0 0 6px 6px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .benefitsGstMain {
+      .GstbillMainbox {
+        padding: 5rem 0;
+        .benfitBox {
+          width: 100%;
+          @include flexstart;
+          gap: 20px;
+          flex-wrap: wrap;
+          .innerBenfitbox {
+            width: 100%;
+            @include mobile-view {
+              width: calc(50% - 10px);
+            }
+            @include mini-screen {
+              width: calc(25% - 15px);
+            }
+            .benfitcard {
+              background: $white;
+              @include boxCardShadow;
+              padding: 15px;
+              border-radius: 8px;
+              overflow: hidden;
+              transition: 0.3s ease-in-out;
+              border: 2px solid transparent;
+              &:hover {
+                border-color: $primarycolor;
+              }
+              .iconse {
+                width: 100%;
+                display: block;
+                text-align: center;
+                padding-bottom: 1rem;
+                svg {
+                  color: $secondarycolor;
+                  width: auto;
+                  height: 50px;
+                }
+              }
+              h3 {
+                @include font-16;
+                color: $Dark;
+                @include font-600;
+                padding-bottom: 1rem;
+                text-align: left;
+                margin-bottom: 0;
+                text-transform: capitalize;
+                @include tab-view {
+                  @include font-20;
+                }
+              }
+              p {
+                @include font-14;
+                line-height: 2rem;
+                color: $Dark;
+                margin-bottom: 0;
+                padding-bottom: 1.5rem;
+                text-transform: capitalize;
+                @include tab-view {
+                  @include font-16;
+                  line-height: 2.1rem;
+                }
+              }
+              a {
+                color: $primarycolor;
+                @include font-16;
+                @include font-600;
+                line-height: 2.1rem;
+                text-decoration: none;
+                &:hover {
+                  color: $secondarycolor;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .builtIndMain {
+      background: $whitef5;
+      .builtIndBox {
+        padding: 5rem 0;
+        .slidersectionmain {
+          .Gustbillslider {
+            position: relative;
+            .sildcard {
+              padding: 1rem 4rem;
+              .sliderinnerbox {
+                background: $white;
+                padding: 2rem;
+                border-radius: 8px;
+                @include flexcolumn;
+                @include ipad-view {
+                  @include flexAlignCenter;
+                  flex-direction: row;
+                  gap: 40px;
+                }
+                .imgbox {
+                  width: 100%;
+                  text-align: center;
+                  @include flexAllCenter;
+                  @include ipad-view {
+                    width: 300px;
+                  }
+                  img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                    max-width: 200px;
+                  }
+                }
+                .slidcontent {
+                  width: 100%;
+                  padding: 0 15px;
+                  @include ipad-view {
+                    width: calc(100% - 300px);
+                  }
+                  h3 {
+                    @include font-20;
+                    color: $Dark;
+                    padding-bottom: 2rem;
+                    margin-bottom: 0;
+                    @include font-600;
+                  }
+                  p {
+                    @include font-16;
+                    line-height: 2.2rem;
+                    color: $DarkGray;
+                    padding-bottom: 1rem;
+                    margin-bottom: 0;
+                  }
+                }
+              }
+            }
+            .slick-arrow {
+              position: absolute;
+              top: 40%;
+              z-index: 2;
+              font-size: 0;
+              width: 3rem;
+              height: 3rem;
+              border-radius: 100px;
+              background: $sliderarrow;
+              border: 0;
+              &::before {
+                position: absolute;
+                content: "";
+                background: url("../images/right-down-arrow.svg") center;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 2rem;
+                height: 2rem;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+              &.slick-prev {
+                &::before {
+                  background: url("../images/left-down-arrow.svg") center;
+                }
+              }
+              &.slick-next {
+                right: 0;
+              }
+              &:hover {
+                background: $lightGray;
+              }
+            }
+            .slick-dots {
+              @include flexAllCenter;
+              gap: 10px;
+              li {
+                button {
+                  border: 0;
+                  padding: 0;
+                  background: $lightGray;
+                  width: 1rem;
+                  height: 1rem;
+                  font-size: 0;
+                  border-radius: 100px;
+                  &:hover {
+                    background: $primarycolor;
+                  }
+                }
+                &.slick-active {
+                  button {
+                    background: $primarycolor;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .faqsection{
+      padding: 3rem 0;
+      .faqAccordion{
+        padding-bottom: 30px;
+        .accordion{
+          .accordion-item{
+            margin-bottom: 1rem;
+            .accordion-header{
+              margin-bottom: 0;
+              .accordion-button{
+                    width: 100%;
+                    padding: 20px;
+                    border: none;
+                    @include font-20;
+                    @include font-600;
+                    border-radius: 8px;
+                    width: 100%;
+                    text-align: left;
+                    background: $primarycolor;
+                    color: $white;
+                    text-transform: capitalize;
+                    &.collapsed {
+                      background: $graye9e9;
+                      color: $Dark;
+                    }
+              }
+            }
+            .accordion-body {
+                background: $white;
+                @include boxCardShadow;
+                padding: 1.5rem;
+                border-radius: 0 0 6px 6px;
+              p {
+                @include font-16;
+                padding-bottom: 2rem;
+                color: $Dark;
+                text-transform: capitalize;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .Titlebox {
+    padding-bottom: 3rem;
+    h2 {
+      @include font-24;
+      @include font-700;
+      color: $Dark;
+      text-align: center;
+      font-family: $Lato;
+      max-width: 600px;
+      margin: 0 auto;
+      text-transform: capitalize;
+      @include tab-view {
+        @include font-36;
+      }
+    }
+    p {
+      text-align: center;
+      @include font-16;
+      line-height: 2.2rem;
+      color: $Dark;
+      padding-top: 1.5rem;
+    }
+  }
+
+  //  main dashboard end
+}
+// footer start
+footer {
+  padding: 3rem 0;
+  background: $whitef5;
+  @include tab-view {
+    padding: 5rem 0 0;
+  }
+  .upperFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    @include ipad-view {
+      gap: 12.1rem;
+      flex-direction: row;
+    }
+
+    .left {
+      text-align: center;
+      .logo {
+        display: block;
+        img {
+          width: 100%;
+          max-width: 120px;
+        }
+      }
+      @include ipad-view {
+        text-align: left;
+      }
+    }
+
+    .right {
+      width: 100%;
+      gap: 5rem;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+      grid-column-gap: 30px;
+      grid-row-gap: 20px;
+      @include mobile-sm-view {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      }
+      @include ipad-view {
+        grid-row-gap: 62px;
+        text-align: left;
+      }
+
+      ul {
+        li {
+          margin-bottom: 1.6rem;
+
+          &.titleLi {
+            color: $Dark;
+            margin-bottom: 2rem;
+            @include font-18;
+            @include font-700;
+          }
+          &.socailMedia{
+            padding-top: 1rem;
+            .socailmediaBox{
+              @include flexAlignCenter;
+              gap: 1rem;
+              .socIcon{
+                a{
+                  display: block;
+                  color: $primarycolor;
+                  &:hover{
+                    color: $secondarycolor;
+                  }
+                  svg{
+                    width: 28px;
+                    height: 28px;
+                  }
+                }
+              }
+            }
+          }
+
+          a {
+            color: $DarkGray;
+            @include font-16;
+            @include font-500;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            -webkit-transition: all 0.2s ease;
+            text-transform: capitalize;
+            &:hover {
+              color: $primarycolor;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .lowFooter {
+    border-top: 0.1rem solid $lightGray;
+    padding: 2rem 0 3rem;
+    @include flexAlignCenter;
+    color: $black;
+    flex-direction: column;
+    gap: 1rem;
+
+    @include ipad-view {
+      margin-top: 2.2rem;
+      padding: 3.5rem 0 4.3rem;
+      flex-direction: row;
+      gap: inherit;
+      justify-content: space-between;
+    }
+
+    p {
+      @include font-16;
+      @include font-400;
+      text-align: center;
+
+      @include ipad-view {
+        margin-right: 13rem;
+        text-align: left;
+      }
+    }
+    .lowerrigt {
+      display: flex;
+      gap: 20px;
+      a {
+        color: $black;
+        @include font-16;
+        @include font-500;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+
+        &:hover {
+          color: $primarycolor;
+        }
+      }
+    }
+  }
+}
+
+// footer end

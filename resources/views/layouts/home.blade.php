@@ -10,51 +10,57 @@
 
         <title>@yield('title')</title>
 
-        <!-- Fonts -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,600" rel="stylesheet" type="text/css"> -->
-        
-        <link rel="stylesheet" href="{{ asset('css/vendor.css') }}">
+       
+<meta property="og:locale" content="en_US" key="og:locale" />
+  <meta property="og:type" content="website" key="og:type" />
+  <meta property="og:title" content="BizEase" key="og:title" />
+  <meta property="og:description" content="BizEase." key="og:description" />
+  <meta property="og:url" content="http://127.0.0.1:5501/index.html" key="og:url" />
+  <meta property="og:site_name" content="BizEase" key="og:site_name" />
+  <meta property="og:image" content="image" key="og:image" />
+  <meta property="og:image:width" content="1200" key="og:image:width" />
+  <meta property="og:image:height" content="628" key="og:image:height" />
+  <meta property="og:image:type" content="image/png" key="og:image:type" />
 
-        <!-- Styles -->
-        <style>
-            body {
-                min-height: 100vh;
-                background-color: #243949;
-                color: #fff;
-                background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.12'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            }
-            .navbar-default {
-                background-color: transparent;
-                border: none;
-            }
-            .navbar-static-top {
-                margin-bottom: 19px;
-            }
-            .navbar-default .navbar-nav>li>a {
-                color: #fff;
-                font-weight: 600;
-                font-size: 15px
-            }
-            .navbar-default .navbar-nav>li>a:hover{
-                color: #ccc;
-            }
-            .navbar-default .navbar-brand {
-                color: #ccc;
-            }
-        </style>
+  <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('landing-page-assets/assets/images/favicon/apple-icon-57x57.png')}}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('landing-page-assets/assets/images/favicon/apple-icon-60x60.png')}}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('landing-page-assets/assets/images/favicon/apple-icon-72x72.png')}}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('landing-page-assets/assets/images/favicon/apple-icon-76x76.png')}}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('landing-page-assets/assets/images/favicon/apple-icon-114x114.png')}}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('landing-page-assets/assets/images/favicon/apple-icon-120x120.png')}}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('landing-page-assets/assets/images/favicon/apple-icon-144x144.png')}}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('landing-page-assets/assets/images/favicon/apple-icon-152x152.png')}}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('landing-page-assets/assets/images/favicon/apple-icon-180x180.png')}}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('landing-page-assets/assets/images/favicon/android-icon-192x192.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('landing-page-assets/assets/images/favicon/favicon-32x32.png')}}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('landing-page-assets/assets/images/favicon/favicon-96x96.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('landing-page-assets/assets/images/favicon/favicon-16x16.png')}}">
+  <link rel="manifest" href="{{ asset('landing-page-assets/assets/images/favicon/manifest.json')}}">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+
+  <link rel="preload" as="style" href="{{ asset('landing-page-assets/assets/style/bootstrap-style.min.css')}}" fetchpriority="high"
+    onload="this.rel='stylesheet'" />
+  <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'> -->
+  <link rel="preload" as="style" href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'
+    fetchpriority="high" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="{{ asset('landing-page-assets/assets/style/style.min.css')}}" fetchpriority="high"
+    onload="this.rel='stylesheet'" />
+  <link href="{{ asset('landing-page-assets/assets/style/custom.css')}}">
+  
+  <script src="{{ asset('landing-page-assets/lib/jquery/jquery.min.js')}}" fetchpriority="low"></script>
+  <script src="{{ asset('landing-page-assets/lib/bootstrap/js/bootstrap.bundle.min.js') }}" fetchpriority="low"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js' fetchpriority="low"></script>
+  <script src="{{ asset('landing-page-assets/assets/scripts/script.js')}}" fetchpriority="low"></script>
+
     </head>
 
     <body>
-        @include('layouts.partials.home_header')
-        <div class="container">
-            <div class="content">
-                @yield('content')
-            </div>
-        </div>
-        @include('layouts.partials.javascripts')
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/login.js?v=' . $asset_v) }}"></script>
-    @yield('javascript')
+        @include('layouts.landing.header')
+        @include('layouts.landing.landing')    
+        @include('layouts.landing.footer')    
     </body>
 </html>
