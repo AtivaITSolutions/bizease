@@ -1,17 +1,18 @@
 <!doctype html>
 <html lang="{{ config('app.locale') }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- CSRF Token -->
-        <meta name="csrf-token" content="{{ csrf_token() }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title')</title>
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="{{ csrf_token() }}">
 
-       
-<meta property="og:locale" content="en_US" key="og:locale" />
+  <title>@yield('title')</title>
+
+
+  <meta property="og:locale" content="en_US" key="og:locale" />
   <meta property="og:type" content="website" key="og:type" />
   <meta property="og:title" content="BizEase" key="og:title" />
   <meta property="og:description" content="BizEase." key="og:description" />
@@ -42,25 +43,24 @@
 
 
 
-  <link rel="preload" as="style" href="{{ asset('landing-page-assets/assets/style/bootstrap-style.min.css')}}" fetchpriority="high"
-    onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="{{ asset('landing-page-assets/assets/style/bootstrap-style.min.css')}}" fetchpriority="high" onload="this.rel='stylesheet'" />
   <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'> -->
-  <link rel="preload" as="style" href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'
-    fetchpriority="high" onload="this.rel='stylesheet'" />
-  <link rel="preload" as="style" href="{{ asset('landing-page-assets/assets/style/style.min.css')}}" fetchpriority="high"
-    onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css' fetchpriority="high" onload="this.rel='stylesheet'" />
+  <link rel="preload" as="style" href="{{ asset('landing-page-assets/assets/style/style.min.css')}}" fetchpriority="high" onload="this.rel='stylesheet'" />
   <link href="{{ asset('landing-page-assets/assets/style/custom.css')}}">
-  
+
   <script src="{{ asset('landing-page-assets/lib/jquery/jquery.min.js')}}" fetchpriority="low"></script>
   <script src="{{ asset('landing-page-assets/lib/bootstrap/js/bootstrap.bundle.min.js') }}" fetchpriority="low"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js' fetchpriority="low"></script>
   <script src="{{ asset('landing-page-assets/assets/scripts/script.js')}}" fetchpriority="low"></script>
 
-    </head>
+</head>
 
-    <body>
-        @include('layouts.landing.header')
-        @include('layouts.landing.landing')    
-        @include('layouts.landing.footer')    
-    </body>
+<body>
+  @include('layouts.landing.header')
+  @include('layouts.landing.landing')
+  @include('layouts.landing.footer')
+
+</body>
+
 </html>
