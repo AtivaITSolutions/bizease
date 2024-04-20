@@ -21,7 +21,7 @@
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="rightBox">
-            <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
+            <img src="{{ asset('landing-page-assets/assets/images/banner.png')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
           </div>
         </div>
       </div>
@@ -30,12 +30,16 @@
   <!-- hero section end -->
   <!-- left right section start -->
   <section class="twocolumnSectionMain">
+    <!-- <div class="Titlebox">
+      <h2>About Us: Your Digital Business Confidante</h2>
+      <p>Welcome to our world of financial empowerment! We are your trusted partner in managing accounts, streamlining processes, and ensuring your business thrives. Think of us as your digital business confidante—a friendly face in the world of finance.</p>
+    </div> -->
     <div class="repatedSection">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-12 ">
             <div class="imagebox">
-              <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
+              <img src="{{ asset('landing-page-assets/assets/images/billing-software.png')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
             </div>
           </div>
           <div class="col-md-6 col-12">
@@ -77,7 +81,7 @@
           </div>
           <div class="col-md-6 col-12 ">
             <div class="imagebox">
-              <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
+              <img src="{{ asset('landing-page-assets/assets/images/gst.png')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
             </div>
           </div>
         </div>
@@ -88,7 +92,7 @@
         <div class="row">
           <div class="col-md-6 col-12 ">
             <div class="imagebox">
-              <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
+              <img src="{{ asset('landing-page-assets/assets/images/inventory.png')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
             </div>
           </div>
           <div class="col-md-6 col-12">
@@ -109,7 +113,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="repatedSection">
         <div class="container">
           <div class="row">
@@ -131,7 +135,7 @@
             </div>
             <div class="col-md-6 col-12 ">
               <div class="imagebox">
-                <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
+                <img src="{{ asset('landing-page-assets/assets/images/financial.png')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
               </div>
             </div>
           </div>
@@ -496,11 +500,11 @@
 
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accoFaqFour">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqThree" aria-expanded="false" aria-controls="collapsFaqThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqFour" aria-expanded="false" aria-controls="collapsFaqThree">
                     4. Can BizEase generate GST-compliant invoices?
                   </button>
                 </h2>
-                <div id="collapsFaqThree" class="accordion-collapse collapse" aria-labelledby="accoFaqFour" data-bs-parent="#accordionFaq">
+                <div id="collapsFaqFour" class="accordion-collapse collapse" aria-labelledby="accoFaqFour" data-bs-parent="#accordionFaq">
                   <div class="accordion-body">
                     <p>Absolutely! BizEase automates the process of creating invoices and ensures they comply with GST guidelines. It generates invoices with accurate tax calculations, HSN codes, and other necessary details required for GST compliance.</p>
                   </div>
@@ -508,11 +512,11 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accoFaqFive">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqThree" aria-expanded="false" aria-controls="collapsFaqThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqFive" aria-expanded="false" aria-controls="collapsFaqThree">
                     5. Does BizEase offer customization options?
                   </button>
                 </h2>
-                <div id="collapsFaqThree" class="accordion-collapse collapse" aria-labelledby="accoFaqFive" data-bs-parent="#accordionFaq">
+                <div id="collapsFaqFive" class="accordion-collapse collapse" aria-labelledby="accoFaqFive" data-bs-parent="#accordionFaq">
                   <div class="accordion-body">
                     <p> Yes, BizEase provides customization options to tailor invoices and reports according to your business needs. You can personalize invoice templates, add your logo, and customize fields to reflect your brand identity.</p>
                   </div>
@@ -520,11 +524,11 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accoFaqSix">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqThree" aria-expanded="false" aria-controls="collapsFaqThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqSix" aria-expanded="false" aria-controls="collapsFaqThree">
                     6. Can BizEase handle multiple users/accounts?
                   </button>
                 </h2>
-                <div id="collapsFaqThree" class="accordion-collapse collapse" aria-labelledby="accoFaqSix" data-bs-parent="#accordionFaq">
+                <div id="collapsFaqSix" class="accordion-collapse collapse" aria-labelledby="accoFaqSix" data-bs-parent="#accordionFaq">
                   <div class="accordion-body">
                     <p> Certainly! BizEase allows you to manage multiple user accounts, each with its own set of permissions and access levels. This feature is particularly useful for businesses with multiple employees or branches.</p>
                   </div>
@@ -532,11 +536,11 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accoFaqSeven">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqThree" aria-expanded="false" aria-controls="collapsFaqThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqSeven" aria-expanded="false" aria-controls="collapsFaqThree">
                     7. Is my data secure with BizEase?
                   </button>
                 </h2>
-                <div id="collapsFaqThree" class="accordion-collapse collapse" aria-labelledby="accoFaqSeven" data-bs-parent="#accordionFaq">
+                <div id="collapsFaqSeven" class="accordion-collapse collapse" aria-labelledby="accoFaqSeven" data-bs-parent="#accordionFaq">
                   <div class="accordion-body">
                     <p>Yes, protecting your data is our top priority. BizEase employs robust security measures to safeguard your information, including data encryption, secure servers, and regular backups.</p>
                   </div>
@@ -544,11 +548,11 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accoFaqEight">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqThree" aria-expanded="false" aria-controls="collapsFaqThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqEight" aria-expanded="false" aria-controls="collapsFaqThree">
                     8. Does BizEase offer customer support?
                   </button>
                 </h2>
-                <div id="collapsFaqThree" class="accordion-collapse collapse" aria-labelledby="accoFaqEight" data-bs-parent="#accordionFaq">
+                <div id="collapsFaqEight" class="accordion-collapse collapse" aria-labelledby="accoFaqEight" data-bs-parent="#accordionFaq">
                   <div class="accordion-body">
                     <p>Absolutely! Our dedicated customer support team is here to assist you with any queries or issues you may encounter. Whether you need help getting started or troubleshooting a problem, we're just a message or call away.</p>
                   </div>
@@ -556,11 +560,11 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accoFaqNine">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqThree" aria-expanded="false" aria-controls="collapsFaqThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqNine" aria-expanded="false" aria-controls="collapsFaqThree">
                     9. Is there a trial period for BizEase?
                   </button>
                 </h2>
-                <div id="collapsFaqThree" class="accordion-collapse collapse" aria-labelledby="accoFaqNine" data-bs-parent="#accordionFaq">
+                <div id="collapsFaqNine" class="accordion-collapse collapse" aria-labelledby="accoFaqNine" data-bs-parent="#accordionFaq">
                   <div class="accordion-body">
                     <p> Yes, we offer a free trial period so you can experience the full capabilities of BizEase before making a commitment. Sign up for our trial to explore all the features and see how BizEase can benefit your business.</p>
                   </div>
@@ -568,11 +572,11 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accoFaqTen">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqThree" aria-expanded="false" aria-controls="collapsFaqThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqTen" aria-expanded="false" aria-controls="collapsFaqThree">
                     10. How do I get started with BizEase?
                   </button>
                 </h2>
-                <div id="collapsFaqThree" class="accordion-collapse collapse" aria-labelledby="accoFaqTen" data-bs-parent="#accordionFaq">
+                <div id="collapsFaqTen" class="accordion-collapse collapse" aria-labelledby="accoFaqTen" data-bs-parent="#accordionFaq">
                   <div class="accordion-body">
                     <p> Getting started with BizEase is simple! Visit our website, sign up for a free trial, and start managing your finances more efficiently today. If you have any questions or need assistance, our support team is here to help you every step of the way.</p>
                   </div>

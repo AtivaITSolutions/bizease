@@ -26,7 +26,7 @@
             <a href="javascript:void(0);" class="logo" aria-label="Our Story">Try Mobile app</a>
           </li>
           <li>
-            <a href="javascript:void(0);" class="logo" aria-label="Careers">pricing</a>
+            <a  href="{{ action([\Modules\Superadmin\Http\Controllers\PricingController::class, 'index']) }}" class="logo" aria-label="Careers">pricing</a>
           </li>
         </ul>
         <ul>
@@ -36,7 +36,7 @@
           <li>
             <a href="javascript:void(0);" class="logo" aria-label="Our Cakes ">about us </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="javascript:void(0);" class="logo" aria-label="Bakers Portal">media</a>
           </li>
           <li>
@@ -44,7 +44,7 @@
           </li>
           <li>
             <a href="javascript:void(0);" class="logo" aria-label="Bakers Portal">Faqs</a>
-          </li>
+          </li> -->
         </ul>
         <ul>
           <li class="titleLi">
