@@ -301,6 +301,119 @@
     </div>
   </section> -->
   <!-- Features of GST section start -->
+  <section class="featuresMain">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="featuresbox">
+            <div class="Titlebox">
+              <h2>Features of GST Billing and Accounting Software</h2>
+            </div>
+            <div class="FeaturesTabmain">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="Tabid1" data-bs-toggle="tab" data-bs-target="#Tabpane1" type="button" role="tab" aria-controls="Tabpane1" aria-selected="true">Fashion & Clothing</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="Tabid2" data-bs-toggle="tab" data-bs-target="#Tabpane2" type="button" role="tab" aria-controls="Tabpane2" aria-selected="false">Retail & Wholesale</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="Tabidd3" data-bs-toggle="tab" data-bs-target="#Tabpane3" type="button" role="tab" aria-controls="Tabpane3" aria-selected="false">Medical</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="Tabid4" data-bs-toggle="tab" data-bs-target="#Tabpane4" type="button" role="tab" aria-controls="Tabpane4" aria-selected="true">Electronics & Home Appliances</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="Tabid4" data-bs-toggle="tab" data-bs-target="#Tabpane5" type="button" role="tab" aria-controls="Tabpane4" aria-selected="true">Restaurants</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="Tabid4" data-bs-toggle="tab" data-bs-target="#Tabpane6" type="button" role="tab" aria-controls="Tabpane4" aria-selected="true">*Mobile & App Development*</button>
+                </li>
+              </ul>
+              <div class="tab-content accordion" id="myTabContent">
+                <div class="tab-pane fade accordion-item active show" id="Tabpane1" role="tabpanel" aria-labelledby="Tabid1" tabindex="0">
+
+                  <h2 class="accordion-header d-lg-none" id="accoFaqOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqOne" aria-expanded="true" aria-controls="collapsFaqOne">Fashion & Clothing</button>
+                  </h2>
+                  <div id="collapsFaqOne" class="accordion-collapse collapse show  d-lg-block" aria-labelledby="accoFaqOne" data-bs-parent="#myTabContent">
+                    <div class="accordion-body">
+                      <p>Bizease provides comprehensive inventory management tools tailored for the fashion and clothing industry. Its features allow businesses to track stock levels, manage multiple product variants, and analyze sales trends. With its invoicing capabilities, businesses can efficiently handle transactions with wholesalers and retailers, streamlining the entire supply chain process.</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade accordion-item" id="Tabpane2" role="tabpanel" aria-labelledby="Tabid2" tabindex="0">
+                  <h2 class="accordion-header d-lg-none" id="accoFaqTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqTwo" aria-expanded="false" aria-controls="collapsFaqTwo">
+                    Retail & Wholesale
+                    </button>
+                  </h2>
+                  <div id="collapsFaqTwo" class="accordion-collapse collapse d-lg-block" aria-labelledby="accoFaqTwo" data-bs-parent="#myTabContent">
+                    <div class="accordion-body">
+                      <p>Bizease offers robust solutions for both retail and wholesale operations. It enables businesses to manage their inventory effectively, generate invoices, and track sales across multiple channels. With its reporting and analytics features, businesses can gain insights into customer preferences and buying behavior, facilitating better decision-making and inventory optimization.</p>                     
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade accordion-item" id="Tabpane3" role="tabpanel" aria-labelledby="Tabidd3" tabindex="0">
+                  <h2 class="accordion-header d-lg-none" id="accoFaqThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqThree" aria-expanded="false" aria-controls="collapsFaqThree">
+                    Medical
+                    </button>
+                  </h2>
+                  <div id="collapsFaqThree" class="accordion-collapse collapse d-lg-block" aria-labelledby="accoFaqThree" data-bs-parent="#myTabContent">
+                    <div class="accordion-body">
+                      <p>In the medical industry, Bizease provides specialized features for managing medical inventory, including tracking expiry dates, batch numbers, and supplier information. Its invoicing module ensures accurate billing and compliance with healthcare regulations. Additionally, Bizease offers consulting services to help medical businesses streamline their operations and improve efficiency.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade accordion-item" id="Tabpane4" role="tabpanel" aria-labelledby="Tabid4" tabindex="0">
+
+                  <h2 class="accordion-header d-lg-none" id="heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">Electronics & Home Appliances</button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse d-lg-block" aria-labelledby="heading4" data-bs-parent="#myTabContent">
+                    <div class="accordion-body">
+                      <p>Bizease assists electronics and home appliance retailers in managing their diverse product catalogs and complex inventory requirements. Its integrated POS system facilitates smooth transactions and real-time inventory updates. With Bizease, businesses can efficiently handle repairs and servicing requests, ensuring customer satisfaction and loyalty.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade accordion-item" id="Tabpane5" role="tabpanel" aria-labelledby="Tabid5" tabindex="0">
+                  <h2 class="accordion-header d-lg-none" id="heading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                    Restaurants
+                    </button>
+                  </h2>
+                  <div id="collapse5" class="accordion-collapse collapse d-lg-block" aria-labelledby="heading5" data-bs-parent="#myTabContent">
+                    <div class="accordion-body">
+                      <p>Bizease offers tailored solutions for restaurant management, including menu management, table reservations, and order tracking. Its inventory management features help restaurants optimize stock levels and reduce waste. With Bizease, restaurant owners can streamline their operations, improve efficiency, and enhance the overall dining experience for customers.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade accordion-item" id="Tabpane6" role="tabpanel" aria-labelledby="Tabidd6" tabindex="0">
+                  <h2 class="accordion-header d-lg-none" id="heading6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                    *Mobile & App Development*
+                    </button>
+                  </h2>
+                  <div id="collapse6" class="accordion-collapse collapse d-lg-block" aria-labelledby="heading6" data-bs-parent="#myTabContent">
+                    <div class="accordion-body">
+                      <p>Bizease provides specialized tools for managing projects, tracking billable hours, and generating invoices for mobile and app development businesses. Its project management features enable teams to collaborate effectively and deliver projects on time and within budget. With Bizease, mobile and app development firms can streamline their workflows, improve productivity, and enhance client satisfaction.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Benefits of GST Billing Software start -->
   <section class="benefitsGstMain">
     <div class="container">
@@ -393,6 +506,7 @@
       </div>
     </div>
   </section>
+
   <!-- Benefits of GST Billing Software end -->
   <!-- Built for your Industry start -->
   <section class="builtIndMain">
@@ -402,7 +516,7 @@
           <div class="builtIndBox">
             <div class="Titlebox">
               <h2>Let’s Thrive Together</h2>
-              <p>Join us on this financial journey. Whether you’re a startup, a freelancer, or an established corporation, we’re here to support you. Let’s streamline your processes, boost efficiency, and make your business thrive.🌟📊💼 </p>
+              <p>Join us on this financial journey. Whether you’re a startup, a freelancer, or an established corporation, we’re here to support you. Let’s streamline your processes, boost efficiency, and make your business thrive.</p>
             </div>
             <div class="slidersectionmain">
               <div class="Gustbillslider">
