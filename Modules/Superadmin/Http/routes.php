@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\AboutUsController;
+
 Route::get('/pricing', 'Modules\Superadmin\Http\Controllers\PricingController@index')->name('pricing');
+Route::get('/about-us', [AboutUsController::class, 'show'])->name('about-us');
+
 
 Route::group(['middleware' => ['web', 'auth', 'language', 'AdminSidebarMenu', 'superadmin'], 'prefix' => 'superadmin', 'namespace' => 'Modules\Superadmin\Http\Controllers'], function () {
     Route::get('/install', 'InstallController@index');

@@ -57,10 +57,10 @@
           <li class="submenuMain">
             <button class="submenu">Company</button>
             <div class="sub-menu-alt">
-              <a href="javascript:void(0);">About us</a>
-              <a href="javascript:void(0);">Media</a>
+              <a href="{{ route('about-us') }}">About us</a>
+              <!-- <a href="javascript:void(0);">Media</a>
               <a href="javascript:void(0);">Blogs</a>
-              <a href="javascript:void(0);">Faqs</a>
+              <a href="javascript:void(0);">Faqs</a> -->
             </div>
           </li>
           @if (Route::has('login'))
