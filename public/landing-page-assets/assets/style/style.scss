@@ -525,6 +525,7 @@ html {
           flex-direction: column;
           justify-content: center;
           height: 100%;
+          padding-top: 20px;
           h2 {
             @include font-24;
             @include font-700;
@@ -683,6 +684,8 @@ html {
               overflow: hidden;
               transition: 0.3s ease-in-out;
               border: 2px solid transparent;
+              min-height: 310px;
+              height: 100%;
               &:hover {
                 border-color: $primarycolor;
               }
@@ -745,11 +748,13 @@ html {
             position: relative;
             .sildcard {
               padding: 1rem 4rem;
+              height: 300px;
               .sliderinnerbox {
                 background: $white;
                 padding: 2rem;
                 border-radius: 8px;
                 @include flexcolumn;
+                height: 100%;
                 @include ipad-view {
                   @include flexAlignCenter;
                   flex-direction: row;
@@ -1065,3 +1070,81 @@ footer {
 }
 
 // footer end
+.businessappsection{
+  width: 100%;
+  background: rgb(42,91,162);
+  background: linear-gradient(90deg, rgba(42,91,162,1) 10%, rgba(13,49,83,1) 64%);
+  padding: 100px 20px;
+  .bussinessbox{
+    @include flexAllCenter;
+    gap: 40px;
+    height: 100%;
+    flex-wrap: wrap;
+    @include ipad-view{
+      flex-wrap: nowrap;
+    }
+    .leftboxse{
+      width: 100%;
+      @include flexAllCenter;
+      gap: 20px;
+      flex-wrap: wrap;
+      @include ipad-view{
+        width: 50%;
+      }
+      .binnerbox{
+        width: calc(50% - 10px);
+        .innercardview{
+          background: $white;
+          width: 100%;
+          padding: 20px;
+          border-radius: 8px;
+          text-align: center;
+          .iconset{
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            padding-bottom: 10px;
+            img{
+              width: 50px;
+              object-fit: cover;
+            }
+          }
+          p{
+            @include font-18;
+            color: $Dark;
+            padding-bottom: 10px;
+            span{
+              @include font-14;
+              color: $DarkGray;
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+    .rightbox{
+      width: 100%;
+      height: 100%;
+      @include ipad-view{
+        width: 50%;
+      }
+      .innercard{
+        background: $white;
+        width: 100%;
+        padding: 30px 30px;
+        border-radius: 8px;
+        text-align: left;
+        text-align: justify;
+        @include flexAlignCenter;
+        @include ipad-view{
+          height: 100%;
+        }
+        p{
+          @include font-18;
+          color: $Dark;
+          padding-bottom: 10px;
+        }
+    }
+    }
+  }
+}
