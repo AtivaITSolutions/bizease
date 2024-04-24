@@ -111,6 +111,13 @@
         </ul>
       </div>
     </div>
+    <div class="lowFooter">
+    <p>2024 Bizease Company. All rights reserved</p>
+    <div class="lowerrigt">
+      <a href="javascript:void(0);" aria-label="Cookies Policy">Cookies Policy</a>
+      <a href="javascript:void(0);" aria-label="Cookies Preferences">Cookies Preferences</a>
+    </div>
+  </div>
     <!-- <div class="chat-popup" id='tawk_6615685ca0c6737bd129ff02'></div> -->
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
@@ -128,13 +135,7 @@
     </script>
     <!--End of Tawk.to Script-->
   </div>
-  <div class="lowFooter">
-    <p>2024 Bizease Company. All rights reserved</p>
-    <div class="lowerrigt">
-      <a href="javascript:void(0);" aria-label="Cookies Policy">Cookies Policy</a>
-      <a href="javascript:void(0);" aria-label="Cookies Preferences">Cookies Preferences</a>
-    </div>
-  </div>
+ 
 
 
 </footer>

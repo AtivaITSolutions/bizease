@@ -58,142 +58,142 @@
 
 <body>
     @include('layouts.landing.header')
-
-    <!-- hero section start -->
-    <section class="heroMainWrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="rightBox">
-                        <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="leftBox">
-                        <p>
-                            Bizease offers a FREE Business Accounting Software tailored for Indian small businesses,
-                            facilitating tasks such as invoicing, inventory management, and accounting. Its primary
-                            objective is to streamline the daily operations of businessmen, enabling them to focus
-                            on business expansion rather than administrative burdens.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- hero section end -->
-    <!-- left right section start -->
-    <section class="twocolumnSectionMain">
-        <div class="repatedSection">
+    <main class="mainContentWrapper">
+        <!-- hero section start -->
+        <section class="heroMainWrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-12 ">
-                        <div class="imagebox">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="rightBox">
                             <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
                         </div>
                     </div>
-                    <div class="col-md-6 col-12">
-                        <div class="contentbox">
-                            <p>Even now, 70% of SMEs in India still resort to paper for generating bills, resulting
-                                in extensive time devoted to manual data entry and calculations. When minor mishaps
-                                arise, the entire business is at risk due to the absence of backup options. The
-                                dearth of resources can greatly burden business owners, diverting them from
-                                essential tasks. Small Business Accounting Software is in dire need of a digital
-                                transformation—an upgrade that is both uncomplicated and efficient. We endeavor to
-                                introduce a streamlined solution tailored to their needs, thus introducing Bizease!
+                    <div class="col-lg-6 col-md-12">
+                        <div class="leftBox">
+                            <p>
+                                Bizease offers a FREE Business Accounting Software tailored for Indian small businesses,
+                                facilitating tasks such as invoicing, inventory management, and accounting. Its primary
+                                objective is to streamline the daily operations of businessmen, enabling them to focus
+                                on business expansion rather than administrative burdens.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="repatedSection">
+        </section>
+        <!-- hero section end -->
+        <!-- left right section start -->
+        <section class="twocolumnSectionMain">
+            <div class="repatedSection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-12 ">
+                            <div class="imagebox">
+                                <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="contentbox">
+                                <p>Even now, 70% of SMEs in India still resort to paper for generating bills, resulting
+                                    in extensive time devoted to manual data entry and calculations. When minor mishaps
+                                    arise, the entire business is at risk due to the absence of backup options. The
+                                    dearth of resources can greatly burden business owners, diverting them from
+                                    essential tasks. Small Business Accounting Software is in dire need of a digital
+                                    transformation—an upgrade that is both uncomplicated and efficient. We endeavor to
+                                    introduce a streamlined solution tailored to their needs, thus introducing Bizease!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="repatedSection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="contentbox">
+                                <p>We're discussing the enhancement of the largest segment in our nation, namely the
+                                    'Small Business Sector,' which serves as the heartbeat of our economy. One of the
+                                    primary challenges faced by small and medium enterprises (SMEs) is the limited
+                                    access to adequate technology. Alleviating this situation will significantly
+                                    contribute to the nurturing and sustainability of SMEs. To ensure India's emergence
+                                    as a prominent economic player in the years to come, businesses need to prioritize
+                                    generating revenue over being bogged down in financial calculations. Bizease
+                                    essentially facilitates easier business accounting through modern digital methods!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 ">
+                            <div class="imagebox">
+                                <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- left right section end -->
+        <!-- bussiness app section start -->
+        <section class="businessappsection">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-12">
-                        <div class="contentbox">
-                            <p>We're discussing the enhancement of the largest segment in our nation, namely the
-                                'Small Business Sector,' which serves as the heartbeat of our economy. One of the
-                                primary challenges faced by small and medium enterprises (SMEs) is the limited
-                                access to adequate technology. Alleviating this situation will significantly
-                                contribute to the nurturing and sustainability of SMEs. To ensure India's emergence
-                                as a prominent economic player in the years to come, businesses need to prioritize
-                                generating revenue over being bogged down in financial calculations. Bizease
-                                essentially facilitates easier business accounting through modern digital methods!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 ">
-                        <div class="imagebox">
-                            <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- left right section end -->
-    <!-- bussiness app section start -->
-    <section class="businessappsection">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="bussinessbox">
-                        <div class="leftboxse">
-                            <div class="binnerbox">
-                                <div class="innercardview">
-                                    <span class="iconset">
-                                        <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
-                                    </span>
-                                    <p><span>platforms</span></p>
-                                    <p>Android and windows</p>
+                    <div class="col-12">
+                        <div class="bussinessbox">
+                            <div class="leftboxse">
+                                <div class="binnerbox">
+                                    <div class="innercardview">
+                                        <span class="iconset">
+                                            <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
+                                        </span>
+                                        <p><span>platforms</span></p>
+                                        <p>Android and windows</p>
+                                    </div>
+                                </div>
+                                <div class="binnerbox">
+                                    <div class="innercardview">
+                                        <span class="iconset">
+                                            <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
+                                        </span>
+                                        <p><span>platforms</span></p>
+                                        <p>Android and windows</p>
+                                    </div>
+                                </div>
+                                <div class="binnerbox">
+                                    <div class="innercardview">
+                                        <span class="iconset">
+                                            <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
+                                        </span>
+                                        <p><span>platforms</span></p>
+                                        <p>Android and windows</p>
+                                    </div>
+                                </div>
+                                <div class="binnerbox">
+                                    <div class="innercardview">
+                                        <span class="iconset">
+                                            <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
+                                        </span>
+                                        <p><span>platforms</span></p>
+                                        <p>Android and windows</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="binnerbox">
-                                <div class="innercardview">
-                                    <span class="iconset">
-                                        <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
-                                    </span>
-                                    <p><span>platforms</span></p>
-                                    <p>Android and windows</p>
+                            <div class="rightbox">
+                                <div class="innercard">
+                                    <p>A Business Accounting App like Bizease (accessible as both an Android and Desktop
+                                        App) ensures that the financial data of the business is always maintained with
+                                        100% accuracy. It operates offline, enabling users to utilize it even without a
+                                        reliable internet connection. Bizease App provides a comprehensive overview of
+                                        assets, liabilities, and business equity, serving as a foundation for effective
+                                        planning of accounting activities. </p>
                                 </div>
-                            </div>
-                            <div class="binnerbox">
-                                <div class="innercardview">
-                                    <span class="iconset">
-                                        <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
-                                    </span>
-                                    <p><span>platforms</span></p>
-                                    <p>Android and windows</p>
-                                </div>
-                            </div>
-                            <div class="binnerbox">
-                                <div class="innercardview">
-                                    <span class="iconset">
-                                        <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
-                                    </span>
-                                    <p><span>platforms</span></p>
-                                    <p>Android and windows</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="rightbox">
-                            <div class="innercard">
-                                <p>A Business Accounting App like Bizease (accessible as both an Android and Desktop
-                                    App) ensures that the financial data of the business is always maintained with
-                                    100% accuracy. It operates offline, enabling users to utilize it even without a
-                                    reliable internet connection. Bizease App provides a comprehensive overview of
-                                    assets, liabilities, and business equity, serving as a foundation for effective
-                                    planning of accounting activities. </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- bussiness app section end -->
-
+        </section>
+        <!-- bussiness app section end -->
+    </main>
     @include('layouts.landing.footer')
 
 </body>

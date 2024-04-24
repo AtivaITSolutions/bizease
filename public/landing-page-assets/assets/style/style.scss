@@ -614,7 +614,7 @@ html {
               padding: 2rem;
               @include boxCardShadow;
               border-radius: 6px;
-              height: 400px;
+              height: auto;
               overflow-y: auto;
             }
             .tab-pane {
