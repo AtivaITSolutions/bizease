@@ -3,7 +3,7 @@
     <div class="row-wrap">
       <div class="logo-wrap">
         <div class="logo">
-          <a href="index.html" target="_blank">
+          <a href="/">
             <img src="{{ asset('landing-page-assets/assets/images/logo.png')}}" alt="BizEase" width="80" height="92" title="BizEase">
           </a>
         </div>

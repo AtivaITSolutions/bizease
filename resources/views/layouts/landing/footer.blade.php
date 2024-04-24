@@ -13,28 +13,21 @@
   <div class="container">
     <div class="upperFooter">
       <div class="left">
-        <a href="index.html" class="logo" aria-label="BizEase">
+        <a href="/" class="logo" aria-label="BizEase">
           <img src="{{ asset('landing-page-assets/assets/images/logo.png')}}" alt="BizEase" width="100" height="115" title="BizEase" loading="eager" />
         </a>
       </div>
       <div class="right">
-        <ul>
-          <li class="titleLi">
-            Links
-          </li>
-          <!-- <li>
-            <a href="javascript:void(0);" class="logo" aria-label="Our Story">Try Mobile app </a>
-          </li> -->
-          <li>
-            <a  href="{{ action([\Modules\Superadmin\Http\Controllers\PricingController::class, 'index']) }}" class="logo" aria-label="Careers">pricing</a>
-          </li>
-        </ul>
+        
         <ul>
           <li class="titleLi">
             Company
           </li>
           <li>
             <a href="javascript:void(0);" class="logo" aria-label="Our Cakes ">about us </a>
+          </li>
+          <li>
+            <a  href="{{ action([\Modules\Superadmin\Http\Controllers\PricingController::class, 'index']) }}" class="logo" aria-label="Careers">pricing</a>
           </li>
           <!-- <li>
             <a href="javascript:void(0);" class="logo" aria-label="Bakers Portal">media</a>

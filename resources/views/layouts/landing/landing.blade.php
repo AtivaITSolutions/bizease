@@ -46,13 +46,10 @@
             <div class="contentbox">
               <h2>Billing Software</h2>
               <p>Our robust billing software is designed to make invoicing a breeze. Whether you’re a small startup or an established enterprise, our user-friendly interface allows you to create professional invoices with ease. Key features include:</p>
-              <ul>
-                <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Efficient Invoicing</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Generate accurate invoices in minutes, complete with itemized details and tax calculations.</span></span></span></li>
-                <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Customization</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Personalize your invoices with your brand logo and essential information.</span></span></span></li>
-                <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>GST Compliance</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Stay up-to-date with GST regulations using our GST billing software</span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><sup>1</sup></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">.</span></span></span></li>
-                <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Inventory Integration</strong>: Seamlessly link your invoices to inventory management for a holistic view of your business.</span></span></span></li>
-              </ul>
-
+              <p><b>Efficient Invoicing:</b> Generate accurate invoices in minutes, complete with itemized details and tax calculations.</p>
+              <p><b>Customization: </b>Personalize your invoices with your brand logo and essential information.</p>
+              <p><b>GST Compliance:</b> Stay up-to-date with GST regulations using our GST billing software</p>
+              <p><b>Inventory Integration:</b> Seamlessly link your invoices to inventory management for a holistic view of your business.</p>
               <!-- <div class="redmore">
                 <a href="javascript:void(0);">+ Read more</a>
               </div> -->
@@ -68,12 +65,9 @@
             <div class="contentbox">
               <h2>GST Billing Software</h2>
               <p>Navigating the complexities of GST can be daunting. Our GST billing software simplifies the process, ensuring compliance and accuracy. Here’s what we offer:</p>
-              <ul>
-                <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Automated Tax Calculation</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Say goodbye to manual GST calculations. Our software handles it all, from HSN codes to tax rates.</span></span></span></li>
-                <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>E-Way Bills</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Generate E-way bills effortlessly, streamlining your logistics and transportation.</span></span></span></li>
-                <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Lifetime Free Updates</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Stay current with the latest GST norms and regulations.</span></span></span></li>
-              </ul>
-
+              <p><b>Automated Tax Calculation:</b> Say goodbye to manual GST calculations. Our software handles it all, from HSN codes to tax rates.</p>
+              <p><b>E-Way Bills:</b> Generate E-way bills effortlessly, streamlining your logistics and transportation.</p>
+              <p><b>Lifetime Free Updates:</b> Stay current with the latest GST norms and regulations.</p> 
               <!-- <div class="redmore">
                 <a href="javascript:void(0);">+ Read more</a>
               </div> -->
@@ -99,12 +93,9 @@
             <div class="contentbox">
               <h2>Inventory Management</h2>
               <p>Efficient inventory management is crucial for any business. Our software helps you keep track of stock levels, reorder points, and more. Features include</p>
-              <ul>
-                <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Real-time Tracking</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Monitor inventory levels in real-time to avoid stockouts or overstocking.</span></span></span></li>
-                <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Purchase Orders</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Create and manage purchase orders seamlessly.</span></span></span></li>
-                <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Barcode Integration</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Simplify inventory management with barcode scanning.</span></span></span></li>
-              </ul>
-
+              <p><b>Real-time Tracking:</b> Monitor inventory levels in real-time to avoid stockouts or overstocking.</p>
+              <p><b>Purchase Orders: </b>Create and manage purchase orders seamlessly.</p>
+              <p><b>Barcode Integration: </b>Simplify inventory management with barcode scanning.</p>
               <!-- <div class="redmore">
                 <a href="javascript:void(0);">+ Read more</a>
               </div>
@@ -122,12 +113,9 @@
                 <h2>Financial Insights</h2>
                 <p>Numbers tell a story, and we help you decipher it. Our financial reporting tools provide insights into your business performance:
                 </p>
-                <ul>
-                  <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Profit and Loss Statements</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Understand your financial health at a glance.</span></span></span></li>
-                  <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Cash Flow Analysis</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Keep cash flow steady with accurate projections.</span></span></span></li>
-                  <li style="list-style-type:disc"><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000"><strong>Expense Tracking</strong></span></span></span><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">: Monitor expenses and identify cost-saving opportunities</span></span></span></li>
-                </ul>
-
+               <p><b>Profit and Loss Statements:</b> Understand your financial health at a glance.</p>
+               <p><b>Cash Flow Analysis: </b>Keep cash flow steady with accurate projections.</p>
+               <p><b>Expense Tracking: </b>Monitor expenses and identify cost-saving opportunities</p>
                 <!-- <div class="redmore">
                   <a href="javascript:void(0);">+ Read more</a>
                 </div> -->
@@ -327,7 +315,7 @@
                   <button class="nav-link" id="Tabid4" data-bs-toggle="tab" data-bs-target="#Tabpane5" type="button" role="tab" aria-controls="Tabpane4" aria-selected="true">Restaurants</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="Tabid4" data-bs-toggle="tab" data-bs-target="#Tabpane6" type="button" role="tab" aria-controls="Tabpane4" aria-selected="true">*Mobile & App Development*</button>
+                  <button class="nav-link" id="Tabid4" data-bs-toggle="tab" data-bs-target="#Tabpane6" type="button" role="tab" aria-controls="Tabpane4" aria-selected="true">Mobile & App Development</button>
                 </li>
               </ul>
               <div class="tab-content accordion" id="myTabContent">
@@ -346,19 +334,19 @@
                 <div class="tab-pane fade accordion-item" id="Tabpane2" role="tabpanel" aria-labelledby="Tabid2" tabindex="0">
                   <h2 class="accordion-header d-lg-none" id="accoFaqTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqTwo" aria-expanded="false" aria-controls="collapsFaqTwo">
-                    Retail & Wholesale
+                      Retail & Wholesale
                     </button>
                   </h2>
                   <div id="collapsFaqTwo" class="accordion-collapse collapse d-lg-block" aria-labelledby="accoFaqTwo" data-bs-parent="#myTabContent">
                     <div class="accordion-body">
-                      <p>Bizease offers robust solutions for both retail and wholesale operations. It enables businesses to manage their inventory effectively, generate invoices, and track sales across multiple channels. With its reporting and analytics features, businesses can gain insights into customer preferences and buying behavior, facilitating better decision-making and inventory optimization.</p>                     
+                      <p>Bizease offers robust solutions for both retail and wholesale operations. It enables businesses to manage their inventory effectively, generate invoices, and track sales across multiple channels. With its reporting and analytics features, businesses can gain insights into customer preferences and buying behavior, facilitating better decision-making and inventory optimization.</p>
                     </div>
                   </div>
                 </div>
                 <div class="tab-pane fade accordion-item" id="Tabpane3" role="tabpanel" aria-labelledby="Tabidd3" tabindex="0">
                   <h2 class="accordion-header d-lg-none" id="accoFaqThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqThree" aria-expanded="false" aria-controls="collapsFaqThree">
-                    Medical
+                      Medical
                     </button>
                   </h2>
                   <div id="collapsFaqThree" class="accordion-collapse collapse d-lg-block" aria-labelledby="accoFaqThree" data-bs-parent="#myTabContent">
@@ -384,7 +372,7 @@
                 <div class="tab-pane fade accordion-item" id="Tabpane5" role="tabpanel" aria-labelledby="Tabid5" tabindex="0">
                   <h2 class="accordion-header d-lg-none" id="heading5">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                    Restaurants
+                      Restaurants
                     </button>
                   </h2>
                   <div id="collapse5" class="accordion-collapse collapse d-lg-block" aria-labelledby="heading5" data-bs-parent="#myTabContent">
@@ -397,7 +385,7 @@
                 <div class="tab-pane fade accordion-item" id="Tabpane6" role="tabpanel" aria-labelledby="Tabidd6" tabindex="0">
                   <h2 class="accordion-header d-lg-none" id="heading6">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                    *Mobile & App Development*
+                      *Mobile & App Development*
                     </button>
                   </h2>
                   <div id="collapse6" class="accordion-collapse collapse d-lg-block" aria-labelledby="heading6" data-bs-parent="#myTabContent">
@@ -437,7 +425,7 @@
                       <path d="M14 18V23C14 24.65 13.15 26 11.5 26H10V18H14Z" fill="currentColor" />
                       <path d="M7.60003 16H6.53003L6.89003 12H7.25003L7.60003 16Z" fill="currentColor" />
                     </svg> -->
-                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150" >
+                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150">
                   </span>
                   <h3>Billing Software made easy</h3>
                   <p>Tired of complex billing systems? We’ve got you covered. Our user-friendly billing software ensures that invoicing becomes a breeze. Say goodbye to late nights spent crunching numbers; say hello to efficiency</p>
@@ -457,7 +445,7 @@
                       <path d="M14 18V23C14 24.65 13.15 26 11.5 26H10V18H14Z" fill="currentColor" />
                       <path d="M7.60003 16H6.53003L6.89003 12H7.25003L7.60003 16Z" fill="currentColor" />
                     </svg> -->
-                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150" >
+                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150">
                   </span>
                   <h3>GST Billing, Sorted</h3>
                   <p> Navigating the GST maze can be daunting. But fear not! Bizease simplifies GST compliance. Our GST billing software keeps you on the right track, ensuring accurate returns and peace of mind.</p>
@@ -477,7 +465,7 @@
                       <path d="M14 18V23C14 24.65 13.15 26 11.5 26H10V18H14Z" fill="currentColor" />
                       <path d="M7.60003 16H6.53003L6.89003 12H7.25003L7.60003 16Z" fill="currentColor" />
                     </svg> -->
-                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150" >
+                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150">
                   </span>
                   <h3>Inventory Management, Simplified</h3>
                   <p>Lost track of your stock? With Bizease, you’ll never play hide-and-seek with inventory again. Our invoice and inventory software lets you manage products, track sales, and stay organized.</p>
@@ -497,7 +485,7 @@
                       <path d="M14 18V23C14 24.65 13.15 26 11.5 26H10V18H14Z" fill="currentColor" />
                       <path d="M7.60003 16H6.53003L6.89003 12H7.25003L7.60003 16Z" fill="currentColor" />
                     </svg> -->
-                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150" >
+                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150">
                   </span>
                   <h3>Numbers with a Smile</h3>
                   <p>We’re not just about digits; we’re about people. Our GST accounting software combines precision with a human touch. Let’s turn those financial figures into success stories together.</p>

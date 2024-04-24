@@ -504,8 +504,11 @@ html {
       }
     }
     .twocolumnSectionMain{
-      background: $lightblue;
+      // background: $lightblue;
       padding: 5rem 0;
+      background: rgb(42,91,162);
+      background: linear-gradient(90deg, rgba(42,91,162,1) 10%, rgba(13,49,83,1) 64%);
+      color: $white;
       .repatedSection{
         &:not(:last-child){
           padding-bottom: 4rem;
@@ -529,13 +532,14 @@ html {
           h2 {
             @include font-24;
             @include font-700;
-            color: $Dark;
+            color: $white;
             text-align: left;
             font-family: $Lato;
             max-width: 600px;
             text-transform: capitalize;
             margin-bottom: 0;
             padding-bottom: 1.5rem;
+            
             @include tab-view {
               @include font-36;
             }
@@ -544,7 +548,7 @@ html {
             text-align: left;
             @include font-16;
             line-height: 2.2rem;
-            color: $Dark;
+            color: $white;
             padding-bottom: 1.5rem;
           }
           .redmore{
@@ -684,7 +688,7 @@ html {
               overflow: hidden;
               transition: 0.3s ease-in-out;
               border: 2px solid transparent;
-              min-height: 310px;
+              min-height: 400px;
               height: 100%;
               &:hover {
                 border-color: $primarycolor;
@@ -969,7 +973,7 @@ footer {
       grid-column-gap: 30px;
       grid-row-gap: 20px;
       @include mobile-sm-view {
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(326px, 1fr));
       }
       @include ipad-view {
         grid-row-gap: 62px;
