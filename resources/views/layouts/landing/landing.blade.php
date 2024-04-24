@@ -415,21 +415,12 @@
               <div class="innerBenfitbox">
                 <div class="benfitcard">
                   <span class="iconse">
-                    <!-- <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16.499 24.4084C16.2401 24.408 15.9914 24.3072 15.8053 24.1273C15.6192 23.9473 15.5101 23.7022 15.501 23.4435C15.4919 23.1847 15.5835 22.9326 15.7565 22.74C15.9295 22.5474 16.1704 22.4294 16.4287 22.4108C18.179 22.2833 19.8627 21.6872 21.3033 20.6849C22.7439 19.6826 23.8882 18.3111 24.6161 16.7142C25.3441 15.1174 25.6289 13.3541 25.4407 11.6092C25.2524 9.86441 24.5981 8.2024 23.5463 6.79755C22.4945 5.3927 21.084 4.2968 19.4629 3.62481C17.8417 2.95282 16.0695 2.7295 14.3323 2.97829C12.595 3.22709 10.9568 3.93881 9.58936 5.03881C8.22193 6.13881 7.17574 7.58654 6.56053 9.23012C6.45018 9.52602 6.35351 9.82843 6.27053 10.1374C6.23693 10.2645 6.17858 10.3837 6.09883 10.4882C6.01908 10.5928 5.91949 10.6805 5.80577 10.7465C5.69205 10.8125 5.56643 10.8554 5.4361 10.8728C5.30577 10.8901 5.1733 10.8816 5.04627 10.8477C4.91924 10.8138 4.80015 10.7552 4.69581 10.6752C4.59148 10.5952 4.50395 10.4954 4.43824 10.3815C4.37253 10.2676 4.32993 10.1419 4.31288 10.0115C4.29583 9.88113 4.30467 9.74868 4.33889 9.62173C4.43752 9.24967 4.55373 8.88541 4.68752 8.52895C5.42846 6.54867 6.68874 4.80431 8.33611 3.47891C9.98349 2.15351 11.9572 1.29594 14.0502 0.996185C16.1433 0.696427 18.2784 0.965532 20.2315 1.77526C22.1847 2.58499 23.8839 3.90549 25.1509 5.59821C26.4179 7.29093 27.2059 9.29345 27.4323 11.3957C27.6587 13.4979 27.3151 15.6223 26.4376 17.5459C25.56 19.4696 24.1809 21.1216 22.4449 22.3286C20.709 23.5356 18.6801 24.2532 16.5713 24.4059C16.5469 24.4074 16.5224 24.4084 16.499 24.4084Z" fill="currentColor" />
-                      <path d="M20.311 16.1726L16 12.2228V6.43579C16 6.17057 15.8946 5.91622 15.7071 5.72868C15.5196 5.54115 15.2652 5.43579 15 5.43579C14.7348 5.43579 14.4804 5.54115 14.2929 5.72868C14.1054 5.91622 14 6.17057 14 6.43579V12.2167C14 12.3518 14.0274 12.4855 14.0804 12.6097C14.1335 12.7339 14.2112 12.846 14.3088 12.9394L19.1676 17.5867C19.3723 17.7759 19.641 17.8806 19.9197 17.8797C20.1756 17.8797 20.2736 17.782 20.4689 17.5867C20.6336 17.3775 20.7094 17.1119 20.6799 16.8472C20.6503 16.5826 20.5178 16.3403 20.311 16.1726Z" fill="currentColor" />
-                      <path d="M4 18V26H3.5C1.85 26 0 24.65 0 23V18H4Z" fill="currentColor" />
-                      <path d="M4.95998 12L4.53998 16H0.349976L0.939976 13.52C1.06841 13.085 1.33294 12.7026 1.69471 12.4291C2.05648 12.1555 2.49644 12.0051 2.94998 12H4.95998Z" fill="currentColor" />
-                      <path d="M8.14 26H6V18H8.13L8.14 26Z" fill="currentColor" />
-                      <path d="M13.7901 16H9.79005L9.18005 12H11.1901C11.6294 12.0015 12.0573 12.14 12.414 12.3964C12.7708 12.6527 13.0386 13.0141 13.1801 13.43L13.7901 16Z" fill="currentColor" />
-                      <path d="M14 18V23C14 24.65 13.15 26 11.5 26H10V18H14Z" fill="currentColor" />
-                      <path d="M7.60003 16H6.53003L6.89003 12H7.25003L7.60003 16Z" fill="currentColor" />
-                    </svg> -->
+                   
                     <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150">
                   </span>
                   <h3>Billing Software made easy</h3>
                   <p>Tired of complex billing systems? We’ve got you covered. Our user-friendly billing software ensures that invoicing becomes a breeze. Say goodbye to late nights spent crunching numbers; say hello to efficiency</p>
-                  <!-- <a href="javascript:void(0);">+ Read More</a> -->
+                  
                 </div>
               </div>
               <div class="innerBenfitbox">
@@ -445,51 +436,32 @@
                       <path d="M14 18V23C14 24.65 13.15 26 11.5 26H10V18H14Z" fill="currentColor" />
                       <path d="M7.60003 16H6.53003L6.89003 12H7.25003L7.60003 16Z" fill="currentColor" />
                     </svg> -->
-                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150">
+                    <img src="{{ asset('landing-page-assets/assets/images/second.png')}}" alt="No Image" width="150">
                   </span>
                   <h3>GST Billing, Sorted</h3>
                   <p> Navigating the GST maze can be daunting. But fear not! Bizease simplifies GST compliance. Our GST billing software keeps you on the right track, ensuring accurate returns and peace of mind.</p>
-                  <!-- <a href="javascript:void(0);">+ Read More</a> -->
+                  
                 </div>
               </div>
               <div class="innerBenfitbox">
                 <div class="benfitcard">
-                  <span class="iconse">
-                    <!-- <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16.499 24.4084C16.2401 24.408 15.9914 24.3072 15.8053 24.1273C15.6192 23.9473 15.5101 23.7022 15.501 23.4435C15.4919 23.1847 15.5835 22.9326 15.7565 22.74C15.9295 22.5474 16.1704 22.4294 16.4287 22.4108C18.179 22.2833 19.8627 21.6872 21.3033 20.6849C22.7439 19.6826 23.8882 18.3111 24.6161 16.7142C25.3441 15.1174 25.6289 13.3541 25.4407 11.6092C25.2524 9.86441 24.5981 8.2024 23.5463 6.79755C22.4945 5.3927 21.084 4.2968 19.4629 3.62481C17.8417 2.95282 16.0695 2.7295 14.3323 2.97829C12.595 3.22709 10.9568 3.93881 9.58936 5.03881C8.22193 6.13881 7.17574 7.58654 6.56053 9.23012C6.45018 9.52602 6.35351 9.82843 6.27053 10.1374C6.23693 10.2645 6.17858 10.3837 6.09883 10.4882C6.01908 10.5928 5.91949 10.6805 5.80577 10.7465C5.69205 10.8125 5.56643 10.8554 5.4361 10.8728C5.30577 10.8901 5.1733 10.8816 5.04627 10.8477C4.91924 10.8138 4.80015 10.7552 4.69581 10.6752C4.59148 10.5952 4.50395 10.4954 4.43824 10.3815C4.37253 10.2676 4.32993 10.1419 4.31288 10.0115C4.29583 9.88113 4.30467 9.74868 4.33889 9.62173C4.43752 9.24967 4.55373 8.88541 4.68752 8.52895C5.42846 6.54867 6.68874 4.80431 8.33611 3.47891C9.98349 2.15351 11.9572 1.29594 14.0502 0.996185C16.1433 0.696427 18.2784 0.965532 20.2315 1.77526C22.1847 2.58499 23.8839 3.90549 25.1509 5.59821C26.4179 7.29093 27.2059 9.29345 27.4323 11.3957C27.6587 13.4979 27.3151 15.6223 26.4376 17.5459C25.56 19.4696 24.1809 21.1216 22.4449 22.3286C20.709 23.5356 18.6801 24.2532 16.5713 24.4059C16.5469 24.4074 16.5224 24.4084 16.499 24.4084Z" fill="currentColor" />
-                      <path d="M20.311 16.1726L16 12.2228V6.43579C16 6.17057 15.8946 5.91622 15.7071 5.72868C15.5196 5.54115 15.2652 5.43579 15 5.43579C14.7348 5.43579 14.4804 5.54115 14.2929 5.72868C14.1054 5.91622 14 6.17057 14 6.43579V12.2167C14 12.3518 14.0274 12.4855 14.0804 12.6097C14.1335 12.7339 14.2112 12.846 14.3088 12.9394L19.1676 17.5867C19.3723 17.7759 19.641 17.8806 19.9197 17.8797C20.1756 17.8797 20.2736 17.782 20.4689 17.5867C20.6336 17.3775 20.7094 17.1119 20.6799 16.8472C20.6503 16.5826 20.5178 16.3403 20.311 16.1726Z" fill="currentColor" />
-                      <path d="M4 18V26H3.5C1.85 26 0 24.65 0 23V18H4Z" fill="currentColor" />
-                      <path d="M4.95998 12L4.53998 16H0.349976L0.939976 13.52C1.06841 13.085 1.33294 12.7026 1.69471 12.4291C2.05648 12.1555 2.49644 12.0051 2.94998 12H4.95998Z" fill="currentColor" />
-                      <path d="M8.14 26H6V18H8.13L8.14 26Z" fill="currentColor" />
-                      <path d="M13.7901 16H9.79005L9.18005 12H11.1901C11.6294 12.0015 12.0573 12.14 12.414 12.3964C12.7708 12.6527 13.0386 13.0141 13.1801 13.43L13.7901 16Z" fill="currentColor" />
-                      <path d="M14 18V23C14 24.65 13.15 26 11.5 26H10V18H14Z" fill="currentColor" />
-                      <path d="M7.60003 16H6.53003L6.89003 12H7.25003L7.60003 16Z" fill="currentColor" />
-                    </svg> -->
-                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150">
+                  <span class="iconse">                  
+                    <img src="{{ asset('landing-page-assets/assets/images/third.png')}}" alt="No Image" width="150">
                   </span>
                   <h3>Inventory Management, Simplified</h3>
                   <p>Lost track of your stock? With Bizease, you’ll never play hide-and-seek with inventory again. Our invoice and inventory software lets you manage products, track sales, and stay organized.</p>
-                  <!-- <a href="javascript:void(0);">+ Read More</a> -->
+                 
                 </div>
               </div>
               <div class="innerBenfitbox">
                 <div class="benfitcard">
                   <span class="iconse">
-                    <!-- <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M16.499 24.4084C16.2401 24.408 15.9914 24.3072 15.8053 24.1273C15.6192 23.9473 15.5101 23.7022 15.501 23.4435C15.4919 23.1847 15.5835 22.9326 15.7565 22.74C15.9295 22.5474 16.1704 22.4294 16.4287 22.4108C18.179 22.2833 19.8627 21.6872 21.3033 20.6849C22.7439 19.6826 23.8882 18.3111 24.6161 16.7142C25.3441 15.1174 25.6289 13.3541 25.4407 11.6092C25.2524 9.86441 24.5981 8.2024 23.5463 6.79755C22.4945 5.3927 21.084 4.2968 19.4629 3.62481C17.8417 2.95282 16.0695 2.7295 14.3323 2.97829C12.595 3.22709 10.9568 3.93881 9.58936 5.03881C8.22193 6.13881 7.17574 7.58654 6.56053 9.23012C6.45018 9.52602 6.35351 9.82843 6.27053 10.1374C6.23693 10.2645 6.17858 10.3837 6.09883 10.4882C6.01908 10.5928 5.91949 10.6805 5.80577 10.7465C5.69205 10.8125 5.56643 10.8554 5.4361 10.8728C5.30577 10.8901 5.1733 10.8816 5.04627 10.8477C4.91924 10.8138 4.80015 10.7552 4.69581 10.6752C4.59148 10.5952 4.50395 10.4954 4.43824 10.3815C4.37253 10.2676 4.32993 10.1419 4.31288 10.0115C4.29583 9.88113 4.30467 9.74868 4.33889 9.62173C4.43752 9.24967 4.55373 8.88541 4.68752 8.52895C5.42846 6.54867 6.68874 4.80431 8.33611 3.47891C9.98349 2.15351 11.9572 1.29594 14.0502 0.996185C16.1433 0.696427 18.2784 0.965532 20.2315 1.77526C22.1847 2.58499 23.8839 3.90549 25.1509 5.59821C26.4179 7.29093 27.2059 9.29345 27.4323 11.3957C27.6587 13.4979 27.3151 15.6223 26.4376 17.5459C25.56 19.4696 24.1809 21.1216 22.4449 22.3286C20.709 23.5356 18.6801 24.2532 16.5713 24.4059C16.5469 24.4074 16.5224 24.4084 16.499 24.4084Z" fill="currentColor" />
-                      <path d="M20.311 16.1726L16 12.2228V6.43579C16 6.17057 15.8946 5.91622 15.7071 5.72868C15.5196 5.54115 15.2652 5.43579 15 5.43579C14.7348 5.43579 14.4804 5.54115 14.2929 5.72868C14.1054 5.91622 14 6.17057 14 6.43579V12.2167C14 12.3518 14.0274 12.4855 14.0804 12.6097C14.1335 12.7339 14.2112 12.846 14.3088 12.9394L19.1676 17.5867C19.3723 17.7759 19.641 17.8806 19.9197 17.8797C20.1756 17.8797 20.2736 17.782 20.4689 17.5867C20.6336 17.3775 20.7094 17.1119 20.6799 16.8472C20.6503 16.5826 20.5178 16.3403 20.311 16.1726Z" fill="currentColor" />
-                      <path d="M4 18V26H3.5C1.85 26 0 24.65 0 23V18H4Z" fill="currentColor" />
-                      <path d="M4.95998 12L4.53998 16H0.349976L0.939976 13.52C1.06841 13.085 1.33294 12.7026 1.69471 12.4291C2.05648 12.1555 2.49644 12.0051 2.94998 12H4.95998Z" fill="currentColor" />
-                      <path d="M8.14 26H6V18H8.13L8.14 26Z" fill="currentColor" />
-                      <path d="M13.7901 16H9.79005L9.18005 12H11.1901C11.6294 12.0015 12.0573 12.14 12.414 12.3964C12.7708 12.6527 13.0386 13.0141 13.1801 13.43L13.7901 16Z" fill="currentColor" />
-                      <path d="M14 18V23C14 24.65 13.15 26 11.5 26H10V18H14Z" fill="currentColor" />
-                      <path d="M7.60003 16H6.53003L6.89003 12H7.25003L7.60003 16Z" fill="currentColor" />
-                    </svg> -->
-                    <img src="{{ asset('landing-page-assets/assets/images/first.png')}}" alt="No Image" width="150">
+                   
+                    <img src="{{ asset('landing-page-assets/assets/images/forth.png')}}" alt="No Image" width="150">
                   </span>
                   <h3>Numbers with a Smile</h3>
                   <p>We’re not just about digits; we’re about people. Our GST accounting software combines precision with a human touch. Let’s turn those financial figures into success stories together.</p>
-                  <!-- <a href="javascript:void(0);">+ Read More</a> -->
+                  
                 </div>
               </div>
             </div>
@@ -685,6 +657,54 @@
                 <div id="collapsFaqTen" class="accordion-collapse collapse" aria-labelledby="accoFaqTen" data-bs-parent="#accordionFaq">
                   <div class="accordion-body">
                     <p> Getting started with BizEase is simple! Visit our website, sign up for a free trial, and start managing your finances more efficiently today. If you have any questions or need assistance, our support team is here to help you every step of the way.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="accoFaqel">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqEl" aria-expanded="false" aria-controls="collapsFaqThree">
+                    11. Will BizEase update my real-time inventory website?
+                  </button>
+                </h2>
+                <div id="collapsFaqEl" class="accordion-collapse collapse" aria-labelledby="accoFaqel" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body">
+                    <p> Yes, BizEase will manage both offline and online real-time inventory updates.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="accoFaqTwl">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqTwl" aria-expanded="false" aria-controls="collapsFaqThree">
+                    12. If I choose BizEase, can I have an online store with my own brand name?
+                  </button>
+                </h2>
+                <div id="collapsFaqTwl" class="accordion-collapse collapse" aria-labelledby="accoFaqTwl" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body">
+                    <p> Yes, you will receive a WooCommerce online store customized with your personal brand name, all developed by the BizEase team at no extra cost.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="accoFaqThir">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqThir" aria-expanded="false" aria-controls="collapsFaqThree">
+                    13. If BizEase offers a free custom brand WooCommerce store, what about domain and hosting?
+                  </button>
+                </h2>
+                <div id="collapsFaqThir" class="accordion-collapse collapse" aria-labelledby="accoFaqThir" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body">
+                    <p> You'll receive one year of free domain and hosting.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="accoFaqFourt">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFaqFourth" aria-expanded="false" aria-controls="collapsFaqThree">
+                    14. Do I need to buy a printer to print invoices for my clients?
+                  </button>
+                </h2>
+                <div id="collapsFaqFourth" class="accordion-collapse collapse" aria-labelledby="accoFaqFourt" data-bs-parent="#accordionFaq">
+                  <div class="accordion-body">
+                    <p>No, you don't need to purchase a printer. BizEase supports any Bluetooth printer, and you can print your invoices at any nearby store.</p>
                   </div>
                 </div>
               </div>
