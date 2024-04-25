@@ -70,8 +70,9 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="leftBox">
+                            <h1>About Us</h1>
                             <p>
-                               <b> Bizease</b> offers a FREE<b> Business Accounting Software </b> tailored for Indian small businesses,
+                                <b> BizEase</b> offers a FREE<b> Business Accounting Software </b> tailored for Indian small businesses,
                                 facilitating tasks such as invoicing, inventory management, and accounting. Its primary
                                 objective is to streamline the daily operations of businessmen, enabling them to focus
                                 on business expansion rather than administrative burdens.
@@ -93,16 +94,16 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
-                           
+
                             <div class="contentbox">
-                            <h3>Small/Medium Business (SME)</h3>
+                                <h2>Small/Medium Business (SME)</h2>
                                 <p>Even now, 70% of SMEs in India still resort to paper for generating bills, resulting
                                     in extensive time devoted to manual data entry and calculations. When minor mishaps
                                     arise, the entire business is at risk due to the absence of backup options. The
                                     dearth of resources can greatly burden business owners, diverting them from
                                     essential tasks. Small Business Accounting Software is in dire need of a digital
                                     transformation—an upgrade that is both uncomplicated and efficient. We endeavor to
-                                    introduce a streamlined solution tailored to their needs, thus introducing Bizease!
+                                    introduce a streamlined solution tailored to their needs, thus introducing BizEase!
                                 </p>
                             </div>
                         </div>
@@ -120,7 +121,7 @@
                                     access to adequate technology. Alleviating this situation will significantly
                                     contribute to the nurturing and sustainability of SMEs. To ensure India's emergence
                                     as a prominent economic player in the years to come, businesses need to prioritize
-                                    generating revenue over being bogged down in financial calculations. Bizease
+                                    generating revenue over being bogged down in financial calculations. BizEase
                                     essentially facilitates easier business accounting through modern digital methods!
                                 </p>
                             </div>
@@ -181,10 +182,10 @@
                             </div>
                             <div class="rightbox">
                                 <div class="innercard">
-                                    <p>A Business Accounting App like Bizease (accessible as both an Android and Desktop
+                                    <p>A Business Accounting App like BizEase (accessible as both an Android and Desktop
                                         App) ensures that the financial data of the business is always maintained with
                                         100% accuracy. It operates offline, enabling users to utilize it even without a
-                                        reliable internet connection. Bizease App provides a comprehensive overview of
+                                        reliable internet connection. BizEase App provides a comprehensive overview of
                                         assets, liabilities, and business equity, serving as a foundation for effective
                                         planning of accounting activities. </p>
                                 </div>
@@ -194,6 +195,25 @@
                 </div>
             </div>
         </section>
+        <section class="about-desc">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4>With BizEase, a Businessman can effortlessly</h4>
+                        <ul>
+                            <li class="feature"><strong>GST Compliance:</strong> Stay in line with GST regulations and manage all parties from a central platform.</li>
+                            <li class="feature"><strong>Business Marketing:</strong> Streamline the marketing of your business and gain instant insights into performance.</li>
+                            <li class="feature"><strong>Invoicing:</strong> Create, print, and share customized invoices with ease.</li>
+                            <li class="feature"><strong>Auto Backup:</strong> Secure your accounting data with automatic backups to prevent accidental loss.</li>
+                            <li class="feature"><strong>Batch Tracking:</strong> Monitor individual units by batch numbers to quickly identify expired items for upcoming sales.</li>
+                            <li class="feature"><strong>Payment Reminders:</strong> Set up automatic payment reminders to ensure timely payments.</li>
+                            <li class="feature"><strong>Offline Accounting:</strong> Conduct business accounting without an internet connection.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- bussiness app section end -->
     </main>
     @include('layouts.landing.footer')

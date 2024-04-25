@@ -86,7 +86,7 @@
         </ul>
         <ul>
           <li class="titleLi">
-            Bizease Software
+            BizEase Software
           </li>
           <li>
             Billing Software
@@ -95,19 +95,19 @@
             Accounting Software
           </li>
           <li>
-            Inventory Management Softwaa>
+            Inventory Management Software
           </li>
           <li>
             Invoicing Software
           </li>
           <li>
-            Business Management  Softwaa>
+            Business Management  Software
           </li>          
         </ul>
       </div>
     </div>
     <div class="lowFooter">
-    <p>2024 Bizease Company. All rights reserved</p>
+    <p>2024 BizeEasee Company. All rights reserved</p>
     <div class="lowerrigt">
       <a href="javascript:void(0);" aria-label="Cookies Policy">Cookies Policy</a>
       <a href="javascript:void(0);" aria-label="Cookies Preferences">Cookies Preferences</a>
