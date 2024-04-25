@@ -71,7 +71,7 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="leftBox">
                             <p>
-                                Bizease offers a FREE Business Accounting Software tailored for Indian small businesses,
+                               <b> Bizease</b> offers a FREE<b> Business Accounting Software </b> tailored for Indian small businesses,
                                 facilitating tasks such as invoicing, inventory management, and accounting. Its primary
                                 objective is to streamline the daily operations of businessmen, enabling them to focus
                                 on business expansion rather than administrative burdens.
@@ -89,11 +89,13 @@
                     <div class="row">
                         <div class="col-md-6 col-12 ">
                             <div class="imagebox">
-                                <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
+                                <img src="{{ asset('landing-page-assets/assets/images/about-us-img1.png')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
+                           
                             <div class="contentbox">
+                            <h3>Small/Medium Business (SME)</h3>
                                 <p>Even now, 70% of SMEs in India still resort to paper for generating bills, resulting
                                     in extensive time devoted to manual data entry and calculations. When minor mishaps
                                     arise, the entire business is at risk due to the absence of backup options. The
@@ -125,7 +127,7 @@
                         </div>
                         <div class="col-md-6 col-12 ">
                             <div class="imagebox">
-                                <img src="{{ asset('landing-page-assets/assets/images/img1.jpg')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
+                                <img src="{{ asset('landing-page-assets/assets/images/about-us-img2.png')}}" alt="hero1" fetchpriority="low" width="600" height="500" title="hero1" loading="lazy" />
                             </div>
                         </div>
                     </div>
@@ -143,37 +145,37 @@
                                 <div class="binnerbox">
                                     <div class="innercardview">
                                         <span class="iconset">
-                                            <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
+                                            <img src="{{ asset('landing-page-assets/assets/images/Andorid.png')}}" alt="img">
                                         </span>
-                                        <p><span>platforms</span></p>
+                                        <p><span>Platforms</span></p>
                                         <p>Android and windows</p>
                                     </div>
                                 </div>
                                 <div class="binnerbox">
                                     <div class="innercardview">
                                         <span class="iconset">
-                                            <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
+                                            <img src="{{ asset('landing-page-assets/assets/images/mobile.png')}}" alt="img">
                                         </span>
-                                        <p><span>platforms</span></p>
-                                        <p>Android and windows</p>
+                                        <p><span>Mobile</span></p>
+                                        <p>100% FREE</p>
                                     </div>
                                 </div>
                                 <div class="binnerbox">
                                     <div class="innercardview">
                                         <span class="iconset">
-                                            <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
+                                            <img src="{{ asset('landing-page-assets/assets/images/hindi-eng.png')}}" alt="img">
                                         </span>
-                                        <p><span>platforms</span></p>
-                                        <p>Android and windows</p>
+                                        <p><span>Language</span></p>
+                                        <p>English, Hindi</p>
                                     </div>
                                 </div>
                                 <div class="binnerbox">
                                     <div class="innercardview">
                                         <span class="iconset">
-                                            <img src="http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square-150x150.jpg" alt="img">
+                                            <img src="{{ asset('landing-page-assets/assets/images/device.png')}}" alt="img">
                                         </span>
-                                        <p><span>platforms</span></p>
-                                        <p>Android and windows</p>
+                                        <p><span>Device</span></p>
+                                        <p>Mobile, Desktop, Tablet</p>
                                     </div>
                                 </div>
                             </div>

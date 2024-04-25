@@ -24,7 +24,7 @@
             Company
           </li>
           <li>
-            <a href="javascript:void(0);" class="logo" aria-label="Our Cakes ">about us </a>
+            <a href="{{ route('about-us') }}" class="logo" aria-label="Our Cakes ">about us </a>
           </li>
           <li>
             <a  href="{{ action([\Modules\Superadmin\Http\Controllers\PricingController::class, 'index']) }}" class="logo" aria-label="Careers">pricing</a>
@@ -71,14 +71,16 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3347 0C28.3577 0 30 1.64238 30 3.66527V26.3347C30 28.3576 28.3576 30 26.3347 30H3.66527C1.64238 30 0 28.3576 0 26.3347V3.66527C0 1.64238 1.64232 0 3.66527 0L26.3347 0ZM9.40201 24.8014V11.5758H5.00514V24.8014H9.40201ZM25.2539 24.8014V17.2171C25.2539 13.1546 23.0849 11.2648 20.1925 11.2648C17.8603 11.2648 16.8155 12.5475 16.2306 13.4484V11.5758H11.8348C11.8931 12.8169 11.8348 24.8014 11.8348 24.8014H16.2305V17.4154C16.2305 17.02 16.259 16.6248 16.3755 16.3422C16.6927 15.5527 17.4165 14.7347 18.631 14.7347C20.2209 14.7347 20.858 15.948 20.858 17.7252V24.8014H25.2539ZM7.23328 5.19855C5.72895 5.19855 4.74609 6.18756 4.74609 7.48383C4.74609 8.75285 5.69906 9.7691 7.1751 9.7691H7.20346C8.73656 9.7691 9.69088 8.75285 9.69088 7.48383C9.66246 6.18937 8.73926 5.20137 7.23328 5.19855Z" fill="currentColor" />
                   </svg>
                 </a>
-              </span>
+              </span>-->
               <span class="socIcon">
-                <a href="javascript:void(0);" target="_blank" aria-label="youtube" title="youtube">
+                <a href="https://www.youtube.com/channel/UCkdJb8LlCpZZe7YOfURmdyA" target="_blank" aria-label="youtube" title="youtube">
                   <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3347 0C28.3577 0 30 1.64238 30 3.66527V26.3347C30 28.3576 28.3576 30 26.3347 30H3.66527C1.64238 30 0 28.3576 0 26.3347V3.66527C0 1.64238 1.64232 0 3.66527 0L26.3347 0ZM25.1062 10.2908C24.8637 9.38326 24.1489 8.66854 23.2414 8.42602C21.5962 7.98516 15 7.98516 15 7.98516C15 7.98516 8.40381 7.98516 6.75861 8.42602C5.85123 8.66854 5.13639 9.38326 4.89381 10.2908C4.45313 11.9358 4.45312 15.3681 4.45312 15.3681C4.45312 15.3681 4.45313 18.8003 4.89381 20.4451C5.13639 21.3527 5.85123 22.0676 6.75861 22.3101C8.40381 22.7508 15 22.7508 15 22.7508C15 22.7508 21.5962 22.7508 23.2414 22.3101C24.1489 22.0676 24.8637 21.3527 25.1062 20.4451C25.5469 18.8003 25.5469 15.3681 25.5469 15.3681C25.5469 15.3681 25.5469 11.9358 25.1062 10.2908ZM12.8905 18.5322V12.204L18.3708 15.3681L12.8905 18.5322Z" fill="currentColor" />
                   </svg>
                 </a>
-              </span> -->
+              </span> 
+
+
             </div>
           </li>
         </ul>
@@ -87,19 +89,19 @@
             Bizease Software
           </li>
           <li>
-            <a href="javascript:void(0);" class="logo" aria-label="Discounts & Offers">Billing Software</a>
+            Billing Software
           </li>
           <li>
-            <a href="javascript:void(0);" class="logo" aria-label="Discounts & Offers">Accounting Software</a>
+            Accounting Software
           </li>
           <li>
-            <a href="javascript:void(0);" class="logo" aria-label="Discounts & Offers">Inventory Management Software</a>
+            Inventory Management Softwaa>
           </li>
           <li>
-            <a href="javascript:void(0);" class="logo" aria-label="Discounts & Offers">Invoicing Software</a>
+            Invoicing Software
           </li>
           <li>
-            <a href="javascript:void(0);" class="logo" aria-label="Discounts & Offers">Business Management  Software</a>
+            Business Management  Softwaa>
           </li>          
         </ul>
       </div>
