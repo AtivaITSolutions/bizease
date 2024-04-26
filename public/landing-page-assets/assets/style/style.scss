@@ -1127,19 +1127,25 @@ footer {
       gap: 5rem;
       text-align: center;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
       grid-column-gap: 30px;
       grid-row-gap: 20px;
 
       @include mobile-sm-view {
-        grid-template-columns: repeat(auto-fill, minmax(326px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));        
       }
-
+      @include tab-view {
+        grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+      }
       @include ipad-view {
         grid-row-gap: 62px;
         text-align: left;
+        grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
       }
-
+      @include xsm-laptop-screen {
+        grid-template-columns: repeat(auto-fill, minmax(326px, 1fr));
+      }
+     
       ul {
         li {
           margin-bottom: 1.6rem;
@@ -1157,7 +1163,10 @@ footer {
             .socailmediaBox {
               @include flexAlignCenter;
               gap: 1rem;
-
+              justify-content: center;
+              @include tab-view {
+                justify-content: flex-start;
+              }
               .socIcon {
                 a {
                   display: block;
