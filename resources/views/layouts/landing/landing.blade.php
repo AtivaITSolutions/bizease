@@ -385,7 +385,7 @@
                 <div class="tab-pane fade accordion-item" id="Tabpane6" role="tabpanel" aria-labelledby="Tabidd6" tabindex="0">
                   <h2 class="accordion-header d-lg-none" id="heading6">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                      *Mobile & App Development*
+                      Mobile & App Development
                     </button>
                   </h2>
                   <div id="collapse6" class="accordion-collapse collapse d-lg-block" aria-labelledby="heading6" data-bs-parent="#myTabContent">
